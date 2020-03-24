@@ -165,13 +165,26 @@
     "night": { "prefix": "" },
     "transition": { "prefix": "" }
   },
+  "redshift_mine": {
+    "day": { "prefix": "" },
+    "night": { "prefix": "" },
+    "transition": { "prefix": "" }
+  },
   "docker_ps": {
+    "prefix": ""
+  },
+  "docker_ps2": {
     "prefix": ""
   },
   "sensors": {
     "prefix": ""
   },
   "sensors2": {
+    "temp": { "prefix": "" },
+    "fan": { "prefix": "" },
+    "cpu": { "prefix": "" }
+  },
+  "sensors3": {
     "temp": { "prefix": "" },
     "fan": { "prefix": "" },
     "cpu": { "prefix": "" }
@@ -205,6 +218,9 @@
     "prefix": "  "
   },
   "spotify": {
+    "prefix": "  "
+  },
+  "spotify2": {
     "prefix": "  "
   },
   "publicip": {

@@ -44,4 +44,6 @@ class Module(bumblebee.engine.Module):
         self.packages = self.check_updates()
 
     def state(self, widget):
-        return self.threshold_state(self.packages, 1, 100)
+        state = []
+        state.append(self.threshold_state(self.packages, 0, 100))
+        return state

@@ -2,14 +2,15 @@
     "icons": [ "awesome-fonts" ],
     "defaults": {
         "separator-block-width": 0,
-        "warning": {
-            "fg": "#e2a478",
-            "bg": "#c6c8d1"
-        },
+        "separator": "",
         "critical": {
-            "fg": "#e27878",
-            "bg": "#c6c8d1"
-        }
+    			"fg": "#ffffff",
+    			"bg": "#ff0000"
+    		},
+    		"warning": {
+    			"fg": "#ffffff",
+    			"bg": "#d75f00"
+    		}
     },
     "cycle": [
         { "fg": "#161821", "bg": "#e2a478" },
@@ -60,6 +61,14 @@
             "fg": "#b4be82",
             "bg": "#161821"
         }
-    }
-
+    },
+    "sensors3": {
+			"fg": "#161821", "bg": "#e27878"
+		},
+		"date": {
+      "fg": "#161821", "bg": "#e27878"
+		},
+		"time": {
+			"fg": "#161821", "bg": "#e27878"
+		}
 }

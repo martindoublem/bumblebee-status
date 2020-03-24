@@ -2,19 +2,20 @@
 	"icons": [ "awesome-fonts" ],
 	"defaults": {
 		"separator-block-width": 0,
+		"separator": "",
 		"critical": {
 			"fg": "#ffffff",
 			"bg": "#ff0000"
 		},
 		"warning": {
-			"fg": "#d75f00",
+			"fg": "#ffffff",
 			"bg": "#ffd700"
 		},
 		"default_separators": false
 	},
 	"cycle": [
 		{
-			"fg": "#ffd700",
+			"fg": "#ffffff",
 			"bg": "#d75f00"
 		},
 		{
@@ -46,7 +47,7 @@
 	},
     "pomodoro": {
         "paused": {
-            "fg": "#d75f00",
+            "fg": "#ffffff",
             "bg": "#ffd700"
         },
         "work": {
@@ -58,5 +59,4 @@
             "bg": "#41db00"
         }
     }
-
 }
